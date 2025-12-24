@@ -7,7 +7,7 @@ namespace InfiniteWeapons
     {
         private readonly string _signatureName = "CCSPlayer_WeaponServices_Weapon_GetSlot";
         private readonly string _signatureWindows = "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC 20 33 FF 45 8B F0";
-        private readonly string _signatureLinux = "55 48 89 E5 41 57 41 56 41 55 41 54 53 48 83 EC 08 8B 47 40 85 C0 0F 8E ? ? ? ? 49 89 FF";
+        private readonly string _signatureLinux = "55 48 89 E5 41 57 41 56 41 55 41 54 53 89 F3 48 83 EC 08 48 63 77 40";
 
         private void UpdateGamedata()
         {

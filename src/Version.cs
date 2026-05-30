@@ -2,6 +2,6 @@ namespace InfiniteWeapons
 {
     public partial class InfiniteWeapons
     {
-        public override string ModuleVersion => "25.12.01";
+        public override string ModuleVersion => "26.05.01";
     }
 }
